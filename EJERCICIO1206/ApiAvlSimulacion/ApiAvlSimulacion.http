@@ -1,0 +1,11 @@
+@ApiAvlSimulacion_HostAddress = http://localhost:5278
+
+GET {{ApiAvlSimulacion_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{ApiAvlSimulacion_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
